@@ -1,0 +1,1126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@700&family=Roboto+Mono&display=swap');
+
+
+
+body { 
+    background-color:#e5d0cc ;
+   
+  } 
+
+
+.logo {
+    width: 350px;
+    height: 230px;
+    border-radius: 18px;
+    position: absolute;
+    top:-20px;
+  }
+
+
+.imgLogo {
+    position: absolute;
+    left: 130px;
+    width: 350px;
+    height: auto;
+}
+
+.listMenu {
+    display: inline-flex;
+    width: 1100px;
+    height: 38px;
+    border-radius: 10px;
+    position: absolute;
+    top:90px;
+    left:35%;
+    background-color: #BFACB5;
+    opacity: 0.9;
+    padding: 20px;
+    color: #172121;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+}
+
+.menuItems {
+    text-decoration: none;
+    color: #172121; ;
+    padding: 20px;
+    width: 400px;
+   
+    }
+
+.menuItems:hover {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+   }
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 40%;
+    top:2900px;
+    border: solid #172121;
+    text-align: center;
+    color:#172121;
+    width: 600px;
+
+  }
+
+#indexSelector {
+    background-color:#e5d0cc ;
+  }
+
+#mainImg {
+    width: 76%;
+    height: auto;
+    position: absolute;
+    top: 280px;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: solid gold;
+    margin-bottom: 50px;
+  }
+
+#slogan {
+position: absolute;
+top: 650px;
+font-family: 'Open Sans', sans-serif;
+font-size: 65px;
+right: 20px;
+color: #172121;
+background-color: #BFACB5;
+border-radius: 150px;
+
+
+}
+
+#sloganMobile {
+    display: none;
+} 
+
+
+
+.secondLayer {
+    background-color:#e5d0cc ;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 1400px;
+    display: flex;
+    margin-top: 40px;
+   
+    
+}
+.secondLayerSelections {
+    background-color: #BFACB5;
+    width: 23%;
+    height: 95%;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+  
+}
+
+h2 {
+    color: #172121;
+    background-color: #e5d0cc;
+    width: 98%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding: 6px;
+    text-overflow: clip;
+}
+
+.imgSelections {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.toOrder {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px; 
+    color: #444554;
+    padding-top: 20px;
+}
+
+
+.secondLayerSelections:hover {
+    box-shadow: 10px 10px 10px 10px #172121;
+   transform: scale3d(3,3);
+}
+
+
+ 
+ .comingSoonImg {
+    width: 600px;
+    height: auto;
+    border-radius: 50%;
+   
+   
+}
+   
+#chocolateWeekendIndex { 
+    width: 98%;
+    position: absolute;
+    top: 2100px;
+    display: flex;
+    background-color:#444554;
+    border-radius: 30px;
+    left: 1%;
+    color:#172121;
+}
+
+.chocolateEventDetails {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    display: flex;
+
+}
+
+ h3 {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    top: 1900px;
+    text-align: center;
+    font-size: 40px;
+    left: 45%;
+    color:#172121;
+    
+}
+
+.EventChocklad {
+    font-size: 60px;
+    color: #e5d0cc;
+    position: absolute;
+    top: 40px;
+    display: contents;
+}
+
+.logoEventChocolate {
+    width: 270px;
+    height: 200px;
+    position: absolute;
+    top: 178px;
+    left: 45%;
+}
+.footerIndex2 {
+    position: absolute;
+    top: 2600px;
+}
+
+
+                                                /* produkter */
+
+.listContainer {
+    position: relative;
+    top: 250px;
+    left: 40%;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    color:#172121;
+    text-decoration: underline;
+
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+
+.productDescriptionContainer {
+    position: absolute;
+    top: 700px;
+    
+}
+
+hr {
+    width: 100%;
+    color: #172121;
+    position: absolute;
+    top: 650px;
+}
+
+.titleNames {
+    color: #444554;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.productsImg {
+    width:200px;
+    height: auto;
+    float: left;
+    margin-bottom: 30px;
+    padding-right: 9px;
+}
+
+.productsText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+    color:#172121;
+    
+}
+
+
+.products {
+    display: flexbox;
+}
+
+#alltFörFika {
+    display: inline-block;
+}
+
+#chokladensRike {
+    display: inline-block;
+}
+
+#smörgåstårtor {
+    display: inline-block;
+  
+}
+
+#fylldaSmörgåsar {
+    display: inline-block;
+}
+
+button{
+    background-color:#BFACB5;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    width: 150px;
+    text-decoration: none;
+
+}
+
+#produkterFooter {
+    position: absolute;
+    top:2600px;
+}
+
+
+.facilities {
+    background-color: #BFACB5;
+    border-radius: 25px;
+    height: 400px;
+    padding: 10px;
+  
+}
+
+#containerFacilities {
+    display:flex;
+    position: absolute;
+    top: 400px;
+}
+
+.facilitiesText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #172121;
+}
+
+#våraTjänsterFooter {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 40%;
+    top:900px;
+    border: solid #172121;
+    text-align: center;
+    color: #172121;
+}
+
+                                                /* evenmang */
+
+#chocolateWeekendEvent {
+width: 95%;
+position: absolute;
+top: 400px;
+display: flex;
+background-color:#444554;
+border-radius: 30px;
+margin-left: 37px;
+color: #172121;
+}
+
+#KommerSnartEvent {
+position: absolute;
+top: 250px;
+}
+
+#tablePassedEvent {
+    width: 900px;
+    position: absolute;
+    top: 1000px;
+    text-align: center;
+   left: 27%;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+}
+
+.shadowBackground {
+    background-color: #444554;
+    color: #e5d0cc;
+}
+
+#PassedEventTitle {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    top: 900px;
+    text-align: center;
+    color: #172121;
+
+}
+
+#ProgrammedEventTitle {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    top: 1300px;
+    text-align: center;
+    color: #172121;
+}
+
+#tableProgrammedEvent {
+    width: 900px;
+    position: absolute;
+    top: 1420px;
+    text-align: center;
+   left: 27%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#EvenemangFooter {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 35%;
+    top:1750px;
+    border: solid #172121;
+    text-align: center;
+    color: #172121;
+}
+                                                /* om oss */
+#omOss {
+    position: absolute;
+    top: 750px;
+}
+
+#omOssTitle {
+    position: absolute;
+    top: 260px;
+    left: 43%;
+    color: #172121;
+}
+
+.imgOmOss {
+    position: relative;
+    top: 500px;
+    left: 200px;
+    width: 360px;
+    height: auto;
+    float: left;
+    opacity: 0.7;
+    border: solid gold;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.omOssText {
+    position: relative;
+    top: 440px;
+    left: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    display: flex;
+    padding: 20px 20px;
+    text-align: justify;
+    background-color: #BFACB5;
+    border-radius: 10px;
+    padding: 30px;
+    margin:10px;
+    color: #172121;   
+    width: 850px;
+}
+
+#vårLokala {
+    position: absolute;
+    top: 850px;
+}
+
+ #vårLokalaTitle {
+    position: absolute;
+    top: 120px;
+    padding-bottom: 100px;
+    left: 125%; 
+    color: #172121; 
+} 
+.imgsVårLokala {
+   margin-top: 50px;
+    border: solid gold;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    top:190px;
+}
+
+.vårLokalaText {
+    width: 800px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    padding: 20px 20px;
+    text-align: justify;
+    background-color: #BFACB5;
+    border-radius: 10px;
+    padding: 50px;
+    margin:10px;
+    position: absolute;
+    top: 270px;
+left: 120%;
+    color: #172121;
+ 
+}
+
+#omOssFooter {
+position: absolute;
+top: 1660px;
+left: 35%;
+color: #172121;
+
+}
+
+                                            /* kontaktaOss */
+.kontaktaOss {
+    position: absolute;
+    top:290px;
+    text-align: center;
+    left: 40%;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #172121;
+}
+
+
+
+#mapSoE {
+    width: 750px;
+    height: auto;
+    display: block;
+    margin-top: 25px;
+    position: absolute;
+    right: -35%;
+    border: solid gold;
+    border-radius: 10px;
+
+}
+
+#formInvitation {
+    position: absolute;
+    top: 700px;
+    font-size: larger;
+    text-decoration: underline;
+    color:#172121;
+}
+
+.contactItem {
+    position: absolute;
+    top: 880px;
+    left: -15%;
+    width: 550px;
+    color:#172121;
+    }
+
+#kontaktaOssFooter {
+    position: absolute;
+    top: 1630px;
+    left: 37%;
+    width: 550px;
+    color:#172121;
+    }
+
+   @media screen and (min-width: 401px) and (max-width: 800px) { 
+
+
+    .imgLogo {
+        position: absolute;
+        width: 290px;
+        height: auto;
+        left: 50px;
+        top: 50px;
+    }
+
+    .listMenu {
+        
+        width: 38%;
+        text-align: justify;
+        height: 228px;
+        border-radius: 10px;
+        position: absolute;
+        top:10px;
+        display: block;
+        left:49%;
+        background-color: #BFACB5;
+        opacity: 0.9;
+        padding-top: 10px;
+        color: #172121;
+        list-style-type: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 28px;
+    }
+
+
+
+    .menuItems:hover {
+        box-shadow: none;
+       }
+
+       .menuItems {
+        margin: 40px;
+        
+       }
+
+       #indexSelector {
+        background-color: transparent ;
+        border: #BFACB5;
+        text-decoration: underline;
+      }
+
+      #mainImg {
+        width: 77%;
+        height: auto;
+        position: absolute;
+        top: 270px;
+        opacity: 0.4; 
+        border-radius: 20px;
+        margin-top: 90px;
+        border: solid gold;
+        left: 12%;
+      }
+
+      #sloganMobile {
+        position: absolute;
+        top: 790px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        right: 20px;
+        color: #172121;
+        background-color: #BFACB5;
+        border-radius: 150px;
+        font-size: 45px;
+            margin-top: 10px;
+            display: block;
+        
+    }
+
+        #slogan {
+            display: none;
+            
+        }
+
+        .secondLayer {
+            background-color:#e5d0cc ;
+            width: 100%;
+            height: 10%;
+            position: absolute;
+            top: 1000px;
+            display: inline-table;
+            left:10%
+           }
+
+           .secondLayerSelections {
+            background-color: #BFACB5;
+            width: 75%;
+            height: 95%;
+            margin: 10px;
+            border-radius: 20px;
+            text-align: center;
+          
+        }
+
+        #comingSoonIndex {
+            display: none;
+        }
+
+        footer {
+          display: none;
+        }
+        
+        .listContainer {
+            position: relative;
+            top: 390px;
+            left: 35%;
+        }
+   
+        hr {
+            width: 100%;
+            color: #172121;
+            position: absolute;
+            top: 690px;
+        }
+
+        button{
+            background-color:#BFACB5;
+            font-family: 'Montserrat', sans-serif;
+            border-radius: 20px;
+            width: 150px;
+            text-decoration: none;
+            float: left;
+            margin: 20px;
+            position:absolute ;
+            left: 0%;
+        }
+
+        .products {
+            margin: 60px;
+      
+         
+        }
+
+        .productsImg {
+          float: none;
+         position: relative;
+         left: 20%;
+         }
+
+         .facilities {
+            background-color: #BFACB5;
+            border-radius: 25px;
+            height: 200px;
+            padding: 10px;
+       display: table;
+          
+        }
+        containerFacilities {
+            display: inline-flexs;
+        }
+
+        .buttonsVåraTjänster {
+            display: none;
+        }
+
+        #comingSoonEvenemang {
+            display: none;
+        }
+ 
+        #eventsTabs {
+            position: relative;
+            left: 0%;
+            width: 100px;
+            top: 400px;
+        } 
+
+        #tablePassedEvent {
+            width: 500px;
+            position: absolute;
+            top: 120px;
+            text-align: center;
+           left: 145%;
+           font-family: 'Montserrat', sans-serif;
+        
+
+        }
+
+        #tableProgrammedEvent {
+            width: 500px;
+            position: absolute;
+            top: 650px;
+            text-align: center;
+           left: 145%;
+           font-family: 'Montserrat', sans-serif;
+        }
+        
+        #PassedEventTitle {
+            position: absolute;
+            top: -30px;
+            text-align: center;
+            left: 300%;
+        }
+        
+        #ProgrammedEventTitle {
+            position: absolute;
+            top: 500px;
+            text-align: center;
+            left: 300%;
+        }
+
+        #omOssTitle {
+            position: absolute;
+            top: 330px;
+            left: 195px;
+        }
+
+        .imgOmOss {
+          position: absolute;
+          top:410px;
+          left: 180px;
+        }
+
+        .imgsVårLokala {
+            position: absolute;
+            top:500px;
+            left: 15px;
+            
+            float: none;
+        }
+ 
+        #vårLokalaTitle {
+            position: relative;
+            top: 440px;
+            
+            left: 48%; 
+            color: #172121; 
+
+        } 
+        .vårLokalaText {
+            position: absolute;
+            top: 1100px;
+            width: 140%;
+            left: 10%;
+            margin-bottom: 200px;
+        }
+
+        .omOssText {
+            width: 70%;
+            left:40px;
+            position: absolute;
+            top: 680px;
+        }
+      
+        #kontaktaOssTitle{
+            position: relative;
+            top: 300px;
+            left: 20%;
+        }
+        .toOrderLinköping {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 22px; 
+            color: #444554;
+            padding-top: 30px;
+            
+            ;
+        }
+        .kontaktaOss {
+            position:absolute;
+            top: 400px;
+            left: 20%;
+            }
+        
+            #mapSoE {
+                width: 120%;
+                left: -4%;
+            }
+          
+        
+            #formInvitation {
+                top: 495px;
+                left: 50px;
+            }
+            .contactItem {
+                top: 670px;
+                left:26%;
+                width: 50%;
+            }
+        
+           
+}
+
+@media screen and (max-width: 400px)  {
+    .imgLogo {
+        position: absolute;
+        width: 90px;
+        height: auto;
+        left: 150px;
+        top: 50px;
+    }
+
+    .listMenu {
+        
+        width: 88%;
+        text-align: left;
+        height: 238px;
+        border-radius: 10px;
+        position: absolute;
+        top:80px;
+        display: block;
+        left:2%;
+        background-color: #BFACB5;
+        opacity: 0.9;
+        padding-top: 10px;
+        color: #172121;
+        list-style-type: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 28px;
+    }
+
+    .menuItems:hover {
+        box-shadow: none;
+       }
+
+       .menuItems:hover {
+        box-shadow: none;
+       }
+
+       .menuItems {
+        margin: 40px;
+        
+       }
+
+       #indexSelector {
+        background-color: transparent ;
+        border: #BFACB5;
+        text-decoration: underline;
+      }
+
+      #mainImg {
+        width: 77%;
+        height: auto;
+        position: absolute;
+        top: 370px;
+        opacity: 0.4; 
+        border-radius: 20px;
+        margin-top: 90px;
+        border: solid gold;
+        left: 12%;
+      }
+
+      #sloganMobile {
+        position: absolute;
+        top: 690px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        right: 20px;
+        color: #172121;
+        background-color: #BFACB5;
+        border-radius: 150px;
+        font-size: 45px;
+            margin-top: 10px;
+            display: block;
+            width: 280px;
+            left: 15%;
+        
+    }
+    #slogan {
+        display: none;
+        
+    }
+
+    .secondLayer {
+        background-color:#e5d0cc ;
+        width: 70%;
+        height: 10%;
+        position: absolute;
+        top: 1000px;
+        display: inline-table;
+        left:10%
+       }
+
+       .secondLayerSelections {
+        background-color: #BFACB5;
+        width: 85%;
+        height: 95%;
+        margin: 10px;
+        border-radius: 20px;
+        text-align: center;
+      
+    }
+
+    #comingSoonIndex {
+        display: none;
+    }
+
+    footer {
+      display: none;
+    }
+    
+    .listContainer {
+        position: relative;
+        top: 390px;
+        left: 35%;
+    }
+
+    hr {
+        width: 100%;
+        color: #172121;
+        position: absolute;
+        top: 690px;
+    }
+
+    button{
+        background-color:#BFACB5;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 20px;
+        width: 150px;
+        text-decoration: none;
+        float: left;
+        margin: 20px;
+        position:absolute ;
+        left: 0%;
+    }
+
+    .products {
+        margin: 60px;
+  
+     
+    }
+
+    .productsImg {
+      float: none;
+     position: relative;
+     left: 20%;
+     }
+
+     .facilities {
+        background-color: #BFACB5;
+        border-radius: 25px;
+        height: 200px;
+        padding: 10px;
+   display: table;
+      
+    }
+    #containerFacilities {
+        display: flow-root;
+        width: 99%;
+    }
+
+    .buttonsVåraTjänster {
+        display: none;
+    }
+
+    #comingSoonEvenemang {
+        display: none;
+    }
+
+    #eventsTabs {
+        position: relative;
+        left: -60%;
+        width: 200px;
+        top: 400px;
+    } 
+
+    #tablePassedEvent {
+        width: 200px;
+        position: absolute;
+        top: 120px;
+        text-align: center;
+       left: 135%;
+       font-family: 'Montserrat', sans-serif;
+    
+
+    }
+
+    #tableProgrammedEvent {
+        width: 200px;
+        position: absolute;
+        top: 790px;
+        text-align: center;
+       left: 135%;
+       font-family: 'Montserrat', sans-serif;
+    }
+    
+    #PassedEventTitle {
+        position: absolute;
+        top: 10px;
+        text-align: center;
+        left: 145%;
+    }
+    
+    #ProgrammedEventTitle {
+        position: absolute;
+        top: 650px;
+        text-align: center;
+        left: 146%;
+    }
+
+    #omOssTitle {
+        position: absolute;
+        top: 430px;
+        left: 22px;
+    }
+
+    .imgOmOss {
+      position: absolute;
+      top:510px;
+      left: 90px;
+      width: 50%;
+    }
+
+    .imgsVårLokala {
+        position: absolute;
+        top:1150px;
+        left:15px;
+        width: 90%;
+        float: none;
+    }
+
+    #vårLokalaTitle {
+        position: relative;
+        top: 1100px;
+        
+        left: 0%; 
+        color: #172121; 
+
+    } 
+    .vårLokalaText {
+        position: absolute;
+        top: 1500px;
+        width: 60%;
+        left: 3%;
+        margin-bottom: 200px;
+    }
+
+    .omOssText {
+        width: 70%;
+        left:15px;
+        position: absolute;
+        top: 680px;
+    }
+    
+    .kontaktaOss {
+    position:absolute;
+    top: 400px;
+    left: 10%;
+    }
+
+    #mapSoE {
+        width: 100%;
+        left: -6%;
+    }
+    .toOrderLinköping {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 22px; 
+        color: #444554;
+        padding-top: 30px;
+        
+        ;
+    }
+
+    #formInvitation {
+        top: 495px;
+    }
+    .contactItem {
+        top: 670px;
+        left:5%;
+        width: 50%;
+    }
+
+    .imgSelections {
+        width: 200px;
+        height: auto;
+        border-radius: 20px;
+    }
+
+
+
+}
+
+
+
+ 
